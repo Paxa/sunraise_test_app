@@ -17,10 +17,5 @@ test:
   password:
 
 production:
-  adapter: mysql
-  encoding: utf8
-  reconnect: false
-  database: suntest_production
-  pool: 5
-  username: root
-  password: 
+    adapter: sqlite3
+    dbfile: db/production.db
